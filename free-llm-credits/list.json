@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T09:13:39Z",
+ "updated_at": "2026-10-29T09:15:00Z",
  "scope": "海外一手平台（不含中国厂商、不含中转站）",
  "items": [
   {
@@ -70,7 +70,7 @@
    "分类": "一次性赠送额度",
    "平台名": "Regolo（意大利 Seeweb）30 天试用",
    "类型": "推理云",
-   "赠送内容": "30 天免费试用，全部 Core 模型；aipromonow 称每天 100 万 Tokens",
+   "赠送内容": "30 天免费试用，全部 Core 模型，每天 100 万 Tokens（试用档限速更严）",
    "是否需绑卡": "否（官方：No credit card required）",
    "是否需手机号/实名": "未核实",
    "有效期": "30 天，每账号一次",
@@ -78,9 +78,9 @@
    "OpenAI兼容base URL": "（未在本次来源中核对）",
    "官网/注册链接": "https://regolo.ai/pricing/",
    "核实来源URL": "https://regolo.ai/pricing/ ; https://www.aipromonow.com/promos/regolo-ai-free-trial-30-days-1m-tokens-daily-oct2026",
-   "核实状态": "官方核实（试用）；每日额度未核实",
+   "核实状态": "官方核实（定价页写明 1M tokens/day）",
    "核实日期": "2026-10-29",
-   "备注": "试用档限速严，L 站反馈偏慢；到期转按量，官方称不自动扣费"
+   "备注": "官方称到期转按量、不自动扣费；官网公告 11 月 1 日起调整模型价格"
   },
   {
    "分类": "一次性赠送额度",
@@ -241,6 +241,70 @@
    "核实状态": "存疑：官网写注册送 $10，但用户 2026-10-29 实测控制台要求先充值；未找到公开 promo code",
    "核实日期": "2026-10-29",
    "备注": "另有 10/31 前单笔充值 ≥$100 送等额额度（每账号最多 $1,000）的活动；官方入门图步骤为“登录→充值→建 Key”；也兼容 Anthropic API"
+  },
+  {
+   "分类": "一次性赠送额度",
+   "平台名": "Nscale Serverless Inference（英国）",
+   "类型": "推理云",
+   "赠送内容": "新用户在控制台领取 $5 免费额度（一次性）",
+   "是否需绑卡": "领取不需（官方流程为先领再按需充值）；用完后需绑卡充值，最低 $5",
+   "是否需手机号/实名": "未见要求；aipromonow 称目前需用 Google 账号注册",
+   "有效期": "官方未写明",
+   "可用主要模型": "GLM-5.3、Qwen3.8-27B、Qwen3.8-Flash-Next 等",
+   "OpenAI兼容base URL": "https://inference.api.nscale.com/v1",
+   "官网/注册链接": "https://console.nscale.com/",
+   "核实来源URL": "https://www.nscale.com/blog/what-is-serverless-inference ; https://www.aipromonow.com/en/promos/nscale-5-dollar-free-credit-glm-5-3",
+   "核实状态": "官方核实（官方博客写「Create an account and claim your $5 free credit」）；aipromonow 7 票全部有效",
+   "核实日期": "2026-10-29",
+   "备注": "部分旧模型 11 月 2–4 日下线"
+  },
+  {
+   "分类": "一次性赠送额度",
+   "平台名": "Entrim.ai（欧盟自建机房推理云）",
+   "类型": "推理云",
+   "赠送内容": "每个新用户 $10 免费额度",
+   "是否需绑卡": "官方未写明",
+   "是否需手机号/实名": "未核实",
+   "有效期": "官方未写明",
+   "可用主要模型": "GLM 5.3、GLM 5.3 Flash、DeepSeek V4.1 Flash、Qwen 3.8 27B、Gemma 4 31B、GPT OSS 120B",
+   "OpenAI兼容base URL": "（OpenAI 兼容，具体地址见 https://docs.entrim.ai）",
+   "官网/注册链接": "https://entrim.ai/signup",
+   "核实来源URL": "https://entrim.ai/pricing/ ; https://entrim.ai/llm-inference/",
+   "核实状态": "官方核实（定价页写「Every new user gets $10 in free credits」）",
+   "核实日期": "2026-10-29",
+   "备注": "欧洲公司自有数据中心，声明不记录、不训练用户数据"
+  },
+  {
+   "分类": "一次性赠送额度",
+   "平台名": "Upstage Solar API（韩国）",
+   "类型": "厂商",
+   "赠送内容": "注册即送 $10 免费额度",
+   "是否需绑卡": "否（第三方 awesome-free-ai-coding 称免卡；官方页未提绑卡）",
+   "是否需手机号/实名": "未核实",
+   "有效期": "官方未写明（控制台查看）",
+   "可用主要模型": "solar-pro4、solar-mini4，另含文档解析/抽取/向量",
+   "OpenAI兼容base URL": "https://api.upstage.ai/v1",
+   "官网/注册链接": "https://console.upstage.ai/",
+   "核实来源URL": "https://console.upstage.ai/docs/getting-started ; https://mvalentsev.github.io/awesome-free-ai-coding/providers/upstage/",
+   "核实状态": "官方核实（文档写「Sign up to receive $10 in free credit」）",
+   "核实日期": "2026-10-29",
+   "备注": "官方声明不存储、不复用 API 数据"
+  },
+  {
+   "分类": "一次性赠送额度",
+   "平台名": "Sarvam AI（印度）",
+   "类型": "厂商",
+   "赠送内容": "每个完成验证的用户 ₹100 额度（约 $1.1）",
+   "是否需绑卡": "官方未写明",
+   "是否需手机号/实名": "需「verified user」（验证方式官方未在该页写明）",
+   "有效期": "官方未写明（第三方称不过期）",
+   "可用主要模型": "Sarvam 105B、Gemma 4 31B、GLM-5.3、DeepSeek V4.1 Flash 等，另含语音/翻译",
+   "OpenAI兼容base URL": "（OpenAI 兼容 Chat Completion，地址见官方文档）",
+   "官网/注册链接": "https://indus.sarvam.ai/",
+   "核实来源URL": "https://docs.sarvam.ai/api/getting-started/pricing",
+   "核实状态": "官方核实（定价页写「Every verified user receives ₹100 in credits」）",
+   "核实日期": "2026-10-29",
+   "备注": "额度小，适合试用；价格以卢比计"
   },
   {
    "分类": "长期免费层（限速/每日/每月）",
@@ -465,6 +529,22 @@
    "核实状态": "未核实",
    "核实日期": "2026-10-29",
    "备注": "仅 aipromonow 转述；Beam 可在 Vercel AI Gateway 用 reflection/beam-free 免费调"
+  },
+  {
+   "分类": "长期免费层（限速/每日/每月）",
+   "平台名": "Nutrient AI Gateway（文档 API 厂商的模型网关）",
+   "类型": "聚合平台",
+   "赠送内容": "Free 计划每月 $5 用量（按 token 计费，月度重置）",
+   "是否需绑卡": "否（额度用完返回 402，除非自行开启按量付费）",
+   "是否需手机号/实名": "未核实",
+   "有效期": "每月重置",
+   "可用主要模型": "nutrient-s / nutrient-m / nutrient-l（自有别名，部分由 OpenAI 承载）及决策模型 nutrient-document-decision",
+   "OpenAI兼容base URL": "https://api.nutrient.io/ai/v1",
+   "官网/注册链接": "https://dashboard.nutrient.io/sign_up/?product=ai-gateway",
+   "核实来源URL": "https://www.nutrient.io/api/ai-gateway-api/ ; https://www.aipromonow.com/en/promos/nutrient-ai-gateway-free-5-usd-monthly",
+   "核实状态": "官方核实（官网 FAQ「The Free plan includes $5 of usage per month」）",
+   "核实日期": "2026-10-29",
+   "备注": "模型以 Nutrient 自有别名提供，不是直接选厂商模型；pdf_test_ 测试 key 不消耗额度"
   },
   {
    "分类": "已失效/已取消",
