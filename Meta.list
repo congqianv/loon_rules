@@ -1,0 +1,63 @@
+# Meta 全家桶 + Muse 分流规则 (Loon)
+# 更新: 2026-10-29
+# 合并自 juner922/muse-loon-rules、Yoyyyyp Muse.list、meta-muse-teardown，去掉被后缀覆盖的条目
+# 注意: Muse 有地区限制，看出口 IP，建议指向美国原生/家宽节点
+
+# === Muse / Meta AI ===
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,museai.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,ecto1usercontent.com
+DOMAIN-SUFFIX,ecto1.ai
+DOMAIN-SUFFIX,willow606.com
+DOMAIN,node.hatch.one
+DOMAIN,meta.privacy-gateway.cloudflare.com
+DOMAIN,meta.hpke-keys.privacy-gateway.cloudflare.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-dev.fastly-edge.com
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llama-api.com
+DOMAIN-SUFFIX,wit.ai
+
+# === Meta 账号 / 公司 ===
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,metacdn.com
+DOMAIN-SUFFIX,tfbnw.net
+
+# === Facebook / Messenger ===
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.gg
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbpigeon.com
+DOMAIN-SUFFIX,fbwat.ch
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,workplace.com
+
+# === Instagram / Threads ===
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,ig.me
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,threads.com
+
+# === WhatsApp ===
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,wa.me
+
+# === Oculus / Quest / Horizon ===
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,oculusvr.com
+
+# === Meta 自有 IP (WhatsApp 通话等直连 IP 的流量) ===
+IP-ASN,32934,no-resolve
