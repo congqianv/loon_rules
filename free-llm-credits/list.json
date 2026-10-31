@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31T19:16:00Z",
+ "updated_at": "2026-10-31T21:30:00Z",
  "scope": "海外一手平台（不含中国厂商、不含中转站）",
  "items": [
   {
@@ -13,10 +13,10 @@
    "可用主要模型": "Bedrock 上各厂商基础模型（Claude、Llama、Nova 等，以 Bedrock 目录为准）",
    "OpenAI兼容base URL": "—（Bedrock 原生 API）",
    "官网/注册链接": "https://aws.amazon.com/free/",
-   "核实来源URL": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/",
+   "核实来源URL": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience/ ; https://aws.amazon.com/free/",
    "核实状态": "官方核实",
-   "核实日期": "2026-10-29",
-   "备注": "仅从未开过 AWS 账号的新客户；免费计划只开放部分服务，不能叠加 Activate 等其他促销额度；2026-09-16 起新版注册可用 GitHub/Google/Apple/Amazon 账号"
+   "核实日期": "2026-10-31",
+   "备注": "仅从未开过 AWS 账号的新客户；免费计划只开放部分服务，不能叠加 Activate 等其他促销额度；2026-09-16 起新版注册可用 GitHub/Google/Apple/Amazon 账号 | 10/31 复核：官方 Free Tier 页仍写开户即得 $100，探索服务再得至多 $100，共至多 $200，6 个月"
   },
   {
    "分类": "一次性赠送额度",
@@ -31,8 +31,8 @@
    "官网/注册链接": "https://azure.microsoft.com/en-us/free/",
    "核实来源URL": "https://azure.microsoft.com/en-us/free/",
    "核实状态": "官方核实（金额）",
-   "核实日期": "2026-10-29",
-   "备注": "仅限新 Azure 客户；额度能否用于大模型推理未在本次页面中逐项核实"
+   "核实日期": "2026-10-31",
+   "备注": "仅限新 Azure 客户；额度能否用于大模型推理未在本次页面中逐项核实 | 10/31 复核：官方页仍写 $200 额度 30 天内用，注册需手机号+非预付信用卡/借记卡"
   },
   {
    "分类": "一次性赠送额度",
@@ -47,8 +47,8 @@
    "官网/注册链接": "https://cloud.google.com/free",
    "核实来源URL": "https://ai.google.dev/gemini-api/docs/billing ; https://cloud.google.com/free",
    "核实状态": "官方核实",
-   "核实日期": "2026-10-29",
-   "备注": "Gemini API 文档原文：自 2026 年 3 月起 Gemini API 用量明确不包含在 $300 试用中；能否用于 Vertex AI 未逐项核实"
+   "核实日期": "2026-10-31",
+   "备注": "Gemini API 文档原文：自 2026 年 3 月起 Gemini API 用量明确不包含在 $300 试用中；能否用于 Vertex AI 未逐项核实 | 10/31 复核：cloud.google.com/free 仍写新客户 $300"
   },
   {
    "分类": "一次性赠送额度",
@@ -116,22 +116,6 @@
   },
   {
    "分类": "一次性赠送额度",
-   "平台名": "Meta Global AI Developer Hackathon",
-   "类型": "厂商",
-   "赠送内容": "入选者每人 $150 Meta Model API 额度（Muse Spark 系列等）",
-   "是否需绑卡": "未核实",
-   "是否需手机号/实名": "未核实",
-   "有效期": "比赛期内",
-   "可用主要模型": "Muse Spark 系列、Muse Image、SAM 3.1、Meta 开源权重模型",
-   "OpenAI兼容base URL": "（未在本次来源中核对）",
-   "官网/注册链接": "https://dev.meta.ai/events/global-hackathon",
-   "核实来源URL": "https://dev.meta.ai/events/global-hackathon",
-   "核实状态": "官方核实（活动存在）",
-   "核实日期": "2026-10-29",
-   "备注": "申请制、需入选，不是注册即送；报名时间与规则以活动页为准"
-  },
-  {
-   "分类": "一次性赠送额度",
    "平台名": "Cerebras 免费试用",
    "类型": "推理云",
    "赠送内容": "$5 免费额度（所有公开模型）",
@@ -192,7 +176,7 @@
    "核实来源URL": "https://www.scaleway.com/en/pricing/model-as-a-service/",
    "核实状态": "官方核实",
    "核实日期": "2026-10-31",
-   "备注": "欧洲云；额度小，适合试用"
+   "备注": "欧洲云；额度小，适合试用 | 10/31 复核：定价页仍写前 100 万 token 免费 + 60 分钟音频转写"
   },
   {
    "分类": "一次性赠送额度",
@@ -433,6 +417,38 @@
    "核实状态": "官方核实（存在，金额未公布）",
    "核实日期": "2026-10-31",
    "备注": "仅限受支持地区，按 IP 判定，其余返回 403（CoreWeave 不公布完整名单）；原 W&B Inference 文档已并入 CoreWeave 文档；base URL 来自 freellmapihub 第三方记录，未在官方页核对"
+  },
+  {
+   "分类": "一次性赠送额度",
+   "平台名": "CoralBricks Inference（开源模型推理云）",
+   "类型": "推理云",
+   "赠送内容": "新账号 $5 免费试用额度（docs 页顶横幅）",
+   "是否需绑卡": "官方未写（文档称自助开通、预付费余额计费）",
+   "是否需手机号/实名": "未写",
+   "有效期": "未写明",
+   "可用主要模型": "DeepSeek V4.1 Flash（Fast / Standard，1M 上下文）",
+   "OpenAI兼容base URL": "https://inference.coralbricks.ai/v1",
+   "官网/注册链接": "https://www.coralbricks.ai/register",
+   "核实来源URL": "https://www.coralbricks.ai/docs ; https://www.coralbricks.ai/docs/getting-started",
+   "核实状态": "官方核实（docs 页写「New accounts now get $5 in free trial credit」；绑卡/有效期未写）",
+   "核实日期": "2026-10-31",
+   "备注": "兼容 Chat Completions / Responses / Anthropic Messages；余额为 0 返回 429 insufficient_credits；GLM 5.3 已于 10/18 退出共享 API"
+  },
+  {
+   "分类": "一次性赠送额度",
+   "平台名": "DigitalOcean Managed Agents 免费试用（含 Serverless Inference）",
+   "类型": "云厂商",
+   "赠送内容": "新客户 $5 额度（约 450 万 token 推理，用于 Managed Agents，含 DO 托管模型 Kimi K3、GLM 5.3 等）",
+   "是否需绑卡": "否（官方博客：no card required）",
+   "是否需手机号/实名": "未写",
+   "有效期": "未写明",
+   "可用主要模型": "DO 托管开源模型（Kimi K3、GLM 5.3、Nemotron 3 Ultra 等）；Claude/GPT 按标价另计",
+   "OpenAI兼容base URL": "见 DO Inference 文档（Serverless Inference 端点）",
+   "官网/注册链接": "https://www.digitalocean.com/products/managed-agents",
+   "核实来源URL": "https://www.digitalocean.com/blog/introducing-agent-droplets ; https://docs.digitalocean.com/products/inference/details/pricing/",
+   "核实状态": "官方核实（博客写 $5 credit, no card required, 仅新客户）；该额度能否直接用于独立 Serverless Inference API Key 官方未明说",
+   "核实日期": "2026-10-31",
+   "备注": "Managed Agents 公测中；Serverless Inference 为预付费，需促销额度或正余额；仅新 DigitalOcean 客户"
   },
   {
    "分类": "长期免费层（限速/每日/每月）",
@@ -721,6 +737,38 @@
    "核实状态": "官方核实（定价页写 daily credit allowance, no card required；具体数值未公布）",
    "核实日期": "2026-10-31",
    "备注": "注册入口写「Request Access」，可能需审核；数值限额来自 mnfst/awesome-free-llm-apis 与 Free-LLM 第三方列表，未在官方页核实；base URL 同样来自第三方"
+  },
+  {
+   "分类": "长期免费层（限速/每日/每月）",
+   "平台名": "Swan Inference（Swan Chain 去中心化 GPU 推理网络）",
+   "类型": "推理云",
+   "赠送内容": "Free 档：每天 100 请求、每周 100 万 token、2 并发、10 次/分钟，仅限标为免费的模型；其他模型用充值额度",
+   "是否需绑卡": "否（官方：no credit card required）",
+   "是否需手机号/实名": "未写",
+   "有效期": "长期（定价页未写截止）",
+   "可用主要模型": "仅「Free only」模型（具体清单见 /models，本次未核对）",
+   "OpenAI兼容base URL": "官方称 OpenAI-compatible（base URL 见 docs.swanchain.io）",
+   "官网/注册链接": "https://inference.swanchain.io/signup",
+   "核实来源URL": "https://inference.swanchain.io/pricing",
+   "核实状态": "官方核实（定价页 Free 档）；免费模型清单未核对",
+   "核实日期": "2026-10-31",
+   "备注": "服务由去中心化 GPU 提供商网络承接；付款支持信用卡与 USDC/USDT/SWAN"
+  },
+  {
+   "分类": "已失效/已取消",
+   "平台名": "Meta Global AI Developer Hackathon",
+   "类型": "厂商",
+   "赠送内容": "入选者每人 $150 Meta Model API 额度（Muse Spark 系列等）",
+   "是否需绑卡": "未核实",
+   "是否需手机号/实名": "未核实",
+   "有效期": "比赛期内",
+   "可用主要模型": "Muse Spark 系列、Muse Image、SAM 3.1、Meta 开源权重模型",
+   "OpenAI兼容base URL": "（未在本次来源中核对）",
+   "官网/注册链接": "https://dev.meta.ai/events/global-hackathon",
+   "核实来源URL": "https://dev.meta.ai/events/global-hackathon",
+   "核实状态": "官方核实（报名已截止）",
+   "核实日期": "2026-10-31",
+   "备注": "活动页写申请截止 10/25 23:59 ET（名额满 2 万也提前关），活动 10/26–11/4，11/9 颁奖；现已无法报名，且本就是申请制、非注册即送。"
   },
   {
    "分类": "已失效/已取消",
