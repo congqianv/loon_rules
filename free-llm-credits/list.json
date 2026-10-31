@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31T21:30:00Z",
+ "updated_at": "2026-10-31T23:25:00Z",
  "scope": "海外一手平台（不含中国厂商、不含中转站）",
  "items": [
   {
@@ -223,8 +223,8 @@
    "官网/注册链接": "https://inference.mangoboost.io/",
    "核实来源URL": "https://www.mangoboost.io/platform/mango-inference",
    "核实状态": "存疑：官网写注册送 $10，但用户 2026-10-29 实测控制台要求先充值；未找到公开 promo code",
-   "核实日期": "2026-10-29",
-   "备注": "另有 10/31 前单笔充值 ≥$100 送等额额度（每账号最多 $1,000）的活动；官方入门图步骤为“登录→充值→建 Key”；也兼容 Anthropic API"
+   "核实日期": "2026-10-31",
+   "备注": "另有 10/31 前单笔充值 ≥$100 送等额额度（每账号最多 $1,000）的活动；官方入门图步骤为“登录→充值→建 Key”；也兼容 Anthropic API；2026-10-31 官网仍写 $10 注册额度 + 全模型 7 折至 11/11（promo 页含免责条款），仍以用户实测为准"
   },
   {
    "分类": "一次性赠送额度",
@@ -753,6 +753,22 @@
    "核实状态": "官方核实（定价页 Free 档）；免费模型清单未核对",
    "核实日期": "2026-10-31",
    "备注": "服务由去中心化 GPU 提供商网络承接；付款支持信用卡与 USDC/USDT/SWAN"
+  },
+  {
+   "分类": "长期免费层（限速/每日/每月）",
+   "平台名": "Typhoon（SCB 10X，泰国）研究展示 API",
+   "类型": "模型厂商",
+   "赠送内容": "研究展示 API 免费使用，Typhoon 系列模型 $0；限速：LLM 5 请求/秒、200 请求/分钟（typhoon-v2.5-30b-a3b-instruct / v2.1-12b），OCR 20 请求/分钟",
+   "是否需绑卡": "官方未写需要（注册 API key 即可）",
+   "是否需手机号/实名": "官方未写需要",
+   "有效期": "无明确期限（beta，随时可能调整）",
+   "可用主要模型": "typhoon-v2.5-30b-a3b-instruct、typhoon-v2.1-12b-instruct、typhoon-ocr、typhoon-asr-realtime",
+   "OpenAI兼容base URL": "https://api.opentyphoon.ai/v1",
+   "官网/注册链接": "https://opentyphoon.ai",
+   "核实来源URL": "https://docs.opentyphoon.ai/en/faq/ ; https://docs.opentyphoon.ai/en/rate-limits/",
+   "核实状态": "官方核实（FAQ 写「research showcase and free to use」；限速页列出各模型 RPS/RPM）",
+   "核实日期": "2026-10-31",
+   "备注": "泰语优化模型；官方说明会收集使用数据用于改进；beta、无正式支持；生产用途建议走 Together AI 付费通道"
   },
   {
    "分类": "已失效/已取消",
