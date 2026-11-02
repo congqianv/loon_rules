@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T05:14:00Z",
+ "updated_at": "2026-11-02T07:16:00Z",
  "scope": "海外一手平台（不含中国厂商、不含中转站）",
  "items": [
   {
@@ -238,8 +238,8 @@
    "OpenAI兼容base URL": "https://inference.api.nscale.com/v1",
    "官网/注册链接": "https://console.nscale.com/",
    "核实来源URL": "https://www.nscale.com/blog/what-is-serverless-inference ; https://www.aipromonow.com/en/promos/nscale-5-dollar-free-credit-glm-5-3",
-   "核实状态": "官方核实（官方博客写「Create an account and claim your $5 free credit」）；aipromonow 7 票全部有效",
-   "核实日期": "2026-10-31",
+   "核实状态": "官方核实（官方博客写「Create an account and claim your $5 free credit」，2026-11-02 复核仍在）；aipromonow 7 票全部有效",
+   "核实日期": "2026-11-02",
    "备注": "部分旧模型 11 月 2–4 日下线"
   },
   {
@@ -270,8 +270,8 @@
    "OpenAI兼容base URL": "https://api.upstage.ai/v1",
    "官网/注册链接": "https://console.upstage.ai/",
    "核实来源URL": "https://console.upstage.ai/docs/getting-started ; https://mvalentsev.github.io/awesome-free-ai-coding/providers/upstage/",
-   "核实状态": "官方核实（文档写「Sign up to receive $10 in free credit」）",
-   "核实日期": "2026-10-31",
+   "核实状态": "官方核实（文档写「Sign up to receive $10 in free credit」，2026-11-02 复核仍在）",
+   "核实日期": "2026-11-02",
    "备注": "官方声明不存储、不复用 API 数据"
   },
   {
@@ -286,8 +286,8 @@
    "OpenAI兼容base URL": "（OpenAI 兼容 Chat Completion，地址见官方文档）",
    "官网/注册链接": "https://indus.sarvam.ai/",
    "核实来源URL": "https://docs.sarvam.ai/api/getting-started/pricing",
-   "核实状态": "官方核实（定价页写「Every verified user receives ₹100 in credits」）",
-   "核实日期": "2026-10-31",
+   "核实状态": "官方核实（定价页写「₹100 worth of free credits for every verified user on signup」，不过期，2026-11-02 复核仍在）",
+   "核实日期": "2026-11-02",
    "备注": "额度小，适合试用；价格以卢比计"
   },
   {
@@ -329,13 +329,13 @@
    "赠送内容": "每个新开发者 €5 免费额度",
    "是否需绑卡": "否（官方：No credit card required to start）",
    "是否需手机号/实名": "未核实",
-   "有效期": "初始额度 90 天过期",
+   "有效期": "官方条款写 30 天过期（Plans 页旧文案写 90 天，两处不一致，以 30 天为保守值）",
    "可用主要模型": "gpt-oss-120b 等开源模型（见 docs.infercom.ai 模型页）",
    "OpenAI兼容base URL": "https://api.infercom.ai/v1",
    "官网/注册链接": "https://cloud.infercom.ai/plans",
-   "核实来源URL": "https://cloud.infercom.ai/plans ; https://docs.infercom.ai/en/get-started/quickstart",
-   "核实状态": "官方核实（Plans 页写 €5 Free Credit、90 天过期）",
-   "核实日期": "2026-10-31",
+   "核实来源URL": "https://infercom.ai/termsconditions/ ; https://infercom.ai/de/developers/api-compatibility ; https://cloud.infercom.ai/plans",
+   "核实状态": "官方核实（服务条款 4.2：新账号 EUR 5.00 免费额度；API 兼容页写「€5 free credit. No credit card required」）",
+   "核实日期": "2026-11-02",
    "备注": "Plans 页文案仍残留「SambaNova Cloud」字样；额度用完后加卡转按量"
   },
   {
@@ -398,8 +398,8 @@
    "OpenAI兼容base URL": "（官方称 OpenAI 兼容，具体 URL 未核对）",
    "官网/注册链接": "https://app.hoonify.ai/sign-up",
    "核实来源URL": "https://www.hoonify.com/products/inference",
-   "核实状态": "官方核实（产品页写「Every account starts with $10 in credits and no credit card」）",
-   "核实日期": "2026-10-31",
+   "核实状态": "官方核实（产品页写「Every account starts with $10 in credits and no credit card」，2026-11-02 复核仍在）",
+   "核实日期": "2026-11-02",
    "备注": "零数据留存、不训练；产品页站内多处重复同一承诺；有效期与地区限制未写"
   },
   {
@@ -430,8 +430,8 @@
    "OpenAI兼容base URL": "https://inference.coralbricks.ai/v1",
    "官网/注册链接": "https://www.coralbricks.ai/register",
    "核实来源URL": "https://www.coralbricks.ai/docs ; https://www.coralbricks.ai/docs/getting-started",
-   "核实状态": "官方核实（docs 页写「New accounts now get $5 in free trial credit」；绑卡/有效期未写）",
-   "核实日期": "2026-10-31",
+   "核实状态": "官方核实（docs 页横幅写「New accounts now get $5 in free trial credit」，2026-11-02 复核仍在；绑卡/有效期未写）",
+   "核实日期": "2026-11-02",
    "备注": "兼容 Chat Completions / Responses / Anthropic Messages；余额为 0 返回 429 insufficient_credits；GLM 5.3 已于 10/18 退出共享 API"
   },
   {
@@ -497,6 +497,22 @@
    "核实状态": "官方核实（页面写「Launch offer · First 10,000 early adopters. Get 1 billion tokens free. No subscription.」）",
    "核实日期": "2026-11-02",
    "备注": "不是对话模型，没有 OpenAI 兼容接口；规模与 SubQ / Nace 同类的决策模型"
+  },
+  {
+   "分类": "一次性赠送额度",
+   "平台名": "Blade by Shadow（法国 Shadow 旗下推理云）",
+   "类型": "推理云",
+   "赠送内容": "每个新客户 €5 免费额度（官网首页与定价页均写 €5 in free credits for every new customer）",
+   "是否需绑卡": "未写（官方无订阅、无最低消费）",
+   "是否需手机号/实名": "未见要求",
+   "有效期": "官方未写明",
+   "可用主要模型": "Qwen3.6-35B-A3B、Qwen3.8-27B、Gemma 4 26B、gpt-oss-20b、Nemotron 3 等开源模型，另有 OCR/语音/嵌入/生图",
+   "OpenAI兼容base URL": "https://api.models.blade.sh/v1",
+   "官网/注册链接": "https://console.blade.sh/",
+   "核实来源URL": "https://blade.sh/ ; https://blade.sh/models/pricing/",
+   "核实状态": "官方核实（首页与定价页均写「€5 in free credits for every new customer」）",
+   "核实日期": "2026-11-02",
+   "备注": "推理跑在 Shadow 运营的欧洲 GPU 上；按 GPU 需求动态计价（每模型有「From」最低价）；AI Fabric（自带 Python 跑 GPU）仍在候补名单"
   },
   {
    "分类": "长期免费层（限速/每日/每月）",
@@ -750,8 +766,8 @@
    "OpenAI兼容base URL": "https://api.platform.preferredai.jp/v1",
    "官网/注册链接": "https://console.platform.preferredai.jp/",
    "核实来源URL": "https://plamo.preferredai.jp/api ; https://docs.plamo.preferredai.jp/ja/pricing ; https://plamo.preferredai.jp/news",
-   "核实状态": "官方核实",
-   "核实日期": "2026-10-31",
+   "核实状态": "官方核实（文档页仍列 Free 计划及其数据条款；价格细节在 plamo.preferredai.jp/api#pricing，2026-11-02 复核）",
+   "核实日期": "2026-11-02",
    "备注": "Free 计划会保存并用于训练，不可输入个人信息；3.0 Prime 将于 2027-01-31 下线"
   },
   {
@@ -766,8 +782,8 @@
    "OpenAI兼容base URL": "https://api.vikasit.ai/v1",
    "官网/注册链接": "https://vikasit.ai/auth",
    "核实来源URL": "https://vikasit.ai/inference",
-   "核实状态": "官方核实",
-   "核实日期": "2026-10-31",
+   "核实状态": "官方核实（Inference 页写 Vikasit Nova 每天 2M tokens 免费、no card required，保留随时调整权，2026-11-02 复核）",
+   "核实日期": "2026-11-02",
    "备注": "小厂，免费模型质量与稳定性未测；每账号有 fair-use 限制"
   },
   {
